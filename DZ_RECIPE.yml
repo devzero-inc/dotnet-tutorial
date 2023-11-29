@@ -1,0 +1,10 @@
+dev:
+  commands:
+  - command: dotnet restore
+    directory: dotnet-tutorial
+    name: install cmd
+  name: ""
+  packages:
+  - nixpkgs.dotnet-sdk
+  repos:
+  - https://github.com/devzero-inc/dotnet-tutorial
